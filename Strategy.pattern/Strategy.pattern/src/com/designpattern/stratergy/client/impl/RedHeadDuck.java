@@ -1,5 +1,5 @@
 /**
- * MalardDuck.java
+ * RedHeadDuck.java
  * 
  * @Author: Chamara Madusanka Jayalath
  * 
@@ -16,16 +16,16 @@ import com.designpattern.stratergy.quackbehavior.impl.Quack;
 /**
  * This class is an subclass of the Duck supper class.
  */
-public class MalardDuck extends Duck {
+public class RedHeadDuck extends Duck {
 
-	public MalardDuck() {
+	public RedHeadDuck() {
 		setQuackBehavior(new Quack());
 		setFlyBehavior(new FlyWithWings());
 	}
 
 	@Override
 	public void display() {
-		System.out.println("This is a MallardDuck.");
+		System.out.println("This is a Red Head Duck.");
 	}
 
 }
