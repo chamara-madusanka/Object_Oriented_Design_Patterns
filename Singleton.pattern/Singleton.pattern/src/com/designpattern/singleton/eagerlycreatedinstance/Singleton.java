@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.designpattern.singleton.eargerlycreatedinstance;
+package com.designpattern.singleton.eagerlycreatedinstance;
 
 /**
  * @author User
